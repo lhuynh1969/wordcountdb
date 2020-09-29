@@ -1,10 +1,8 @@
-# Variables ... no declaration of type
-age = int(input('How old are you? '))
+age = 12
+
 name = 'Linh'
 
-if age > 18:
-    print('{} is {} years old.'.format(name, age))
-else:
-    print('You are younger than 18')
+def hello(name='Linh', age=51):
+    print('Hello {}, you are {} years old!'.format(name, age))
 
-
+hello(name='Fred', age=10)
